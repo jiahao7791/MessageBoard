@@ -1,0 +1,15 @@
+extends layout 
+
+block content
+    <form method="POST" action="/new">
+        <p>
+        <label for="message">Enter your message: </label>
+        message: <input type="text" name="message" value=""/>
+        </p>
+        <p>
+        <label for="user">Enter your username: </label>
+        user: <input type="text" name="user" value=""/>
+        </p>
+
+        <input type="submit" value="Submit"/>
+    </form>
